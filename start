@@ -1,0 +1,4 @@
+python restFull_fraisLivraison.py ./ 2>&1 &
+python   restFull_listeProduit.py ./ 2>&1 &
+cd webapp
+node app.js
